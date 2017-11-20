@@ -1,7 +1,7 @@
 
 ## pipeline
 实际的应用中数据挖掘项目会分成多个阶段来完成，数据采集，清洗到字段/属性/特征的抽取/转换，多种模型算法的组合，到模型的训练，效果评估，上线。这些步骤之间的本质是数据到数据之间的转换，和数据到模型之间的转换。
-![](../images/sklern_pipeline.jpg)
+![](../../images/sklern_pipeline.jpg)
 
 spark ml 希望把这些流程做成一个流水线，主要分成5个角色：Parameters,Model,Estimator,Transformer,Evaluator，逐个来学习学习。
 ## Parameters
